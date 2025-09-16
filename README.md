@@ -13,3 +13,7 @@ Here, you can improve your understanding of Matlib through examples and exercise
 - As a reference for daily practice and review
 
 Start exploring and let's master the basics of Matlib together!
+
+**LICENCE**
+---
+This application is licensed under the [BSD-3-Clause License](LICENSE). You can click the link to read the licence.
