@@ -33,9 +33,11 @@ Click Push to upload your local commits to the GitHub repository.
 
 **INTEGRATING PYTHON WITH MATLAB**
 ---
-1. Run the command `pyversion` to check the Python version and confirm whether Python is available in MATLAB.  
+1. Run the command `pyenv` to check the Python version and confirm whether Python is available in MATLAB.  
 2. If Python is available, you can call functions from **Python files**.  
 3. To call a function defined in a Python file, use the syntax:  
    ``` matlab
    py.[module_name].[function_name]
+4. If you add **new** functions to the Python file, you must run the command `clear classes` to **clear the Python module that has been loaded**.
+5. If you do **NOT** run this command, MATLAB may throw **errors** when calling the updated functions.
 

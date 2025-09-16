@@ -37,9 +37,11 @@
 
 **在 MATLAB 中集成 Python**
 ---
-1. 运行命令 `pyversion` 来检查 Python 版本，并确认 MATLAB 是否可用 Python。  
+1. 运行命令 `pyenv` 来检查 Python 版本，并确认 MATLAB 是否可用 Python。  
 2. 如果 Python 可用，你可以调用 **Python 文件** 中的函数。  
 3. 调用 Python 文件中定义的函数，使用语法：  
    ```matlab
    py.[模块名].[函数名]
+4. 如果你在 Python 文件中**添加了新函数**，必须运行 MATLAB 命令 `clear classes` 来**清除已经加载的 Python 模块**。  
+5. 如果**不**运行该命令，MATLAB 在调用更新后的函数时可能会**报错**。
 
