@@ -34,3 +34,12 @@
 
 5. **推送到 GitHub**  
    点击 `推送` 将本地提交上传到 GitHub 仓库。
+
+**在 MATLAB 中集成 Python**
+---
+1. 运行命令 `pyversion` 来检查 Python 版本，并确认 MATLAB 是否可用 Python。  
+2. 如果 Python 可用，你可以调用 **Python 文件** 中的函数。  
+3. 调用 Python 文件中定义的函数，使用语法：  
+   ```matlab
+   py.[模块名].[函数名]
+```

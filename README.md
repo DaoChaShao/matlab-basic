@@ -30,3 +30,12 @@ If you have new files in your project, click `Add to Source Control` to stage th
 Click Commit (or Submit) to save your changes locally with a commit message.
 5. **Push to GitHub**  
 Click Push to upload your local commits to the GitHub repository.
+
+**INTEGRATING PYTHON WITH MATLAB**
+---
+1. Run the command `pyversion` to check the Python version and confirm whether Python is available in MATLAB.  
+2. If Python is available, you can call functions from **Python files**.  
+3. To call a function defined in a Python file, use the syntax:  
+   ``` matlab
+   py.[module_name].[function_name]
+```
