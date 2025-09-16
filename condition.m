@@ -47,3 +47,33 @@ elseif score == 60
 else
     disp("Merit")
 end
+
+animals = ["cat", "dog", "dog", "human", "ant", "plastic bag"];
+r = randi(length(animals));
+animal = animals(r);
+disp(animal)
+switch animal
+    case "cat"
+        disp("Meow! Meow!")
+    case "dog"
+        disp("Woof! Woof!")
+    case "pig"
+        disp("Oink! Oink!")
+    case {"ant", "plastic bag"}
+        disp("NO relevant sound!")
+    otherwise
+        disp("Hello!")  
+end
+
+
+try
+    colour = py.utils.colour_getter();
+
+     if colour == "red"
+        disp(colour)
+    else
+        disp("NOT")
+    end
+catch exception
+    disp("WRONG")
+end
