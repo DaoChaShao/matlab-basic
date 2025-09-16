@@ -2,6 +2,7 @@
 
 #### FEAT
 
+* 90c6a2b - feat: create a changelog ​automatically (DaoChaShao, 2025-09-16)
 * 0044c3e - feat: use the code to learn how to use the conditional control, and use the MATLIB code call the Python functions (DaoChaShao, 2025-09-16)
 * 45871f2 - feat: update the functions in the Python file (DaoChaShao, 2025-09-16)
 * 1cee510 - feat: create a file for learning loop and call the function from Python file (DaoChaShao, 2025-09-16)
