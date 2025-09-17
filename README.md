@@ -5,14 +5,14 @@
 
 **INTRODUCTION**
 ---
-This repository is dedicated to organizing and practicing the core concepts and functionalities of Matlib.  
-Here, you can improve your understanding of Matlib through examples and exercises, gradually mastering its common operations.
+This repository is dedicated to organising and practising the core concepts and functionalities of MATLAB.  
+Here, you can improve your understanding of MATLAB through examples and exercises, gradually mastering its common operations.
 
-- Beginners who want to learn the basic structure and tools of Matlib
-- Those who want to practice Matlib functionalities hands-on
+- Beginners who want to learn the basic structure and tools of MATLAB
+- Those who want to practice MATLAB functionalities hands-on
 - As a reference for daily practice and review
 
-Start exploring and let's master the basics of Matlib together!
+Start exploring, and let's master the basics of MATLAB together!
 
 **LICENCE**
 ---
